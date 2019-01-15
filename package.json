@@ -1,0 +1,34 @@
+{
+  "name": "unzip-maybe",
+  "version": "0.0.1",
+  "description": "unzip a zip or through stream",
+  "main": "src/index.js",
+  "keywords": [
+    "unzip",
+    "stream"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jameskyburz/unzip-maybe.git"
+  },
+  "author": {
+    "name": "James Kyburz",
+    "email": "james.kyburz@gmail.com"
+  },
+  "files": [
+    "src"
+  ],
+  "license": "Apache-2.0",
+  "dependencies": {
+    "peek-stream": "1.1.3",
+    "pumpify": "1.5.1",
+    "through2": "3.0.0",
+    "unzipper": "0.9.7"
+  },
+  "devDependencies": {
+    "tap": "12.1.1"
+  },
+  "scripts": {
+    "test": "tap test/*.js"
+  }
+}
