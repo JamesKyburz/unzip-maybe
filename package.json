@@ -27,7 +27,7 @@
     "unzipper": "0.10.1"
   },
   "devDependencies": {
-    "tap": "14.2.3"
+    "tap": "14.2.4"
   },
   "scripts": {
     "test": "tap test/*.js"
